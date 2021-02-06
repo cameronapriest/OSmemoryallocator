@@ -1,3 +1,8 @@
+This is a memory allocator simulator written in C. Processes can be created
+and subsequently released from simulated memory, creating a hole. Holes
+can then be compacted together with all free memory. Sample output is
+shown in "lab6.pdf."
+
 When requesting a process, the name of the process must be a single
 "P" followed by an integer. For example:
 P1, P2, ... P143, ... P402394, etc.
